@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>INICIO DE SESSION</title>
+	
+	<!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+	<%  include ('./partials/head') %>
+</head>
+
+<body >
+
+	<div class="container">
+		<div class="card text-center mt-5">
+			<div class="card-body">
+				<h1><span class="fa fa-block"></span>REGISTRO DE ESTUDIANTES UA</h1>
+				<BR>
+				<a href="/login" class="btn btn-light">
+					<span class="fa fa-user"></span> REGISTRO EXISTENTE
+				</a>
+				<a href="/signup" class="btn btn-light">
+					<span class="fa fa-user"></span> NUEVO REGISTRO
+				</a>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+</body>
+</html>

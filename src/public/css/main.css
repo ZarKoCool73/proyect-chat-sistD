@@ -1,0 +1,65 @@
+
+
+.login {
+  background: #fe8c00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+.signup {
+  background: #fe8c00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+body{
+  background: #fe8c00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#contentWrap{
+  display: none;
+}
+
+.error{
+  color: red;
+}
+
+.whisper{
+  color:gray;
+  font-style: italic;
+}
+
+#chat{
+  width: 545px;
+  height: 300px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.bg-gradient{
+  background-image: var(--bs-gradient);
+}
+#messageUser{
+  width: 100%;
+  display: none;
+}
+#message{
+  width: 70%;
+}
+#message-form > div >button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+}
+#content-user{
+  display: inline-block; 
+  width: 15%;
+  display: none;
+}
+#currentUser{
+  border: 1px solid black;
+  padding: 10px;
+}
